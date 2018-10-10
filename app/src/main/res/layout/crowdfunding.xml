@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical">
+
+    <include layout="@layout/title" />
+    <com.lidroid.mutils.views.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/dm080"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/business_banner" />
+
+            <com.lidroid.mutils.views.MyListView
+                android:id="@+id/crowdfun_mlv"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/dm010"
+                android:layout_height="wrap_content">
+            </com.lidroid.mutils.views.MyListView>
+
+
+        </LinearLayout>
+    </com.lidroid.mutils.views.MyScrollView>
+
+    <LinearLayout
+        android:id="@+id/crowdfun_myfabu_ll"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="@dimen/dm010"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/crowdfunding_bj"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/crowdfunding_myfabu"
+            android:layout_marginLeft="@dimen/dm186"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我要发布"
+            android:textSize="@dimen/dm028"
+            android:textColor="#41210f"
+            android:layout_margin="@dimen/dm010"
+            android:layout_marginLeft="@dimen/dm025"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

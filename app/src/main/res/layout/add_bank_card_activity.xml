@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm086"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/txt_user_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dm024"
+            android:text="请输入手机136****1311收到的短信验证码"
+            android:textColor="#41210f"
+            android:textSize="@dimen/dm026" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm100"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dm024"
+            android:background="@null"
+            android:inputType="number"
+            android:maxLength="6"
+            android:text="短信验证码"
+            android:textColor="#999999"
+            android:textSize="@dimen/dm030" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/txt_send_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dm024"
+            android:text="重新发送"
+            android:textColor="#f5cb1e"
+            android:textSize="@dimen/dm026" />
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dm024"
+        android:layout_marginLeft="@dimen/dm024"
+        android:layout_marginTop="@dimen/dm080"
+        android:text="下一步"
+        android:textColor="#41210f"
+        android:gravity="center"
+        android:background="@mipmap/loginbj"/>
+
+</LinearLayout>

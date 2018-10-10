@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dm290"
+    android:background="@mipmap/vip_background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/dm024"
+        android:layout_marginTop="@dimen/dm026"
+        android:src="@mipmap/vip_bangzhu" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dm010"
+        android:src="@mipmap/vip_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dm015"
+        android:text="愤怒的明明"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/dm028" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dm015"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/vip_mayidengji" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dm010"
+            android:text="蚂蚁等级别称"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/dm018" />
+
+        <ImageView
+            android:layout_width="@dimen/dm025"
+            android:layout_height="@dimen/dm025"
+            android:layout_marginLeft="@dimen/dm020"
+            android:scaleType="fitXY"
+            android:src="@mipmap/vip_mayibuluo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dm010"
+            android:text="蚂蚁等级别称"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/dm018" />
+
+    </LinearLayout>
+</LinearLayout>

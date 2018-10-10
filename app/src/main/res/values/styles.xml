@@ -1,0 +1,68 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="MyAppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textSize">@dimen/dm028</item>
+        <item name="android:textColor">#333</item>
+    </style>
+
+    <!-- 底端tab -->
+    <style name="tab">
+        <item name="android:layout_width">@dimen/dm000</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/tab_bg</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">@dimen/dm014</item>
+        <item name="android:paddingBottom">@dimen/dm001</item>
+        <item name="android:textSize">@dimen/dm022</item>
+        <item name="android:textColor">@drawable/tab_text</item>
+    </style>
+    <!-- dialog样式 -->
+    <style name="custom_dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+    <!-- EditText -->
+    <style name="edit_style">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">#333</item>
+        <item name="android:textColorHint">#999</item>
+        <item name="android:textSize">@dimen/dm022</item>
+        <item name="android:textCursorDrawable">@drawable/color_cursor</item>
+        <item name="android:digits">@string/et_limit_gbk</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="roomRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar_drawable</item>
+        <item name="android:minHeight">@dimen/dm028</item>
+        <item name="android:maxHeight">@dimen/dm028</item>
+    </style>
+
+    <!-- 自定义仿IOS的AlertDialog的样式 -->
+    <style name="AlertDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+</resources>

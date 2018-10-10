@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main"
+    android:orientation="vertical">
+
+    <include layout="@layout/title" />
+
+    <com.lidroid.mutils.views.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dm200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="当前已是最新版本"
+                android:textSize="@dimen/dm028"
+                android:textColor="#999999"/>
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginRight="@dimen/dm030"
+                android:layout_marginLeft="@dimen/dm030"
+                android:layout_height="@dimen/dm088"
+                android:gravity="center"
+                android:text="更新"
+                android:layout_marginTop="@dimen/dm080"
+                android:textColor="#999999"
+                android:textSize="@dimen/dm028"
+                android:background="#E0E0E0"/>
+
+        </LinearLayout>
+    </com.lidroid.mutils.views.MyScrollView>
+
+</LinearLayout>

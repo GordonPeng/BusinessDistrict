@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main">#FFF</color>
+    <color name="translete">#00000000</color>
+    <color name="white">#FFF</color>
+    <color name="black">#AA000000</color>
+    <color name="content_bg">#f0f0f0</color>
+    <color name="txt_color">#41210f</color>
+    <color name="txt_9">#999999</color>
+    <color name="txt_3">#333333</color>
+    <color name="txt_6">#666666</color>
+    <color name="txt_c">#cccccc</color>
+    <color name="txt_0">#000000</color>
+    <color name="txt_f5">#f5cb1e</color>
+    <color name="txt_red">#ff0000</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+
+
+</resources>

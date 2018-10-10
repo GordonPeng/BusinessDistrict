@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical">
+
+    <include layout="@layout/title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="@dimen/dm000"
+            android:layout_height="@dimen/dm060"
+            android:layout_marginBottom="@dimen/dm015"
+            android:layout_marginLeft="@dimen/dm024"
+            android:layout_marginRight="@dimen/dm024"
+            android:layout_marginTop="@dimen/dm015"
+            android:layout_weight="1"
+            android:background="@mipmap/search_box"
+            android:drawableRight="@mipmap/search"
+            android:gravity="center_vertical"
+            android:hint="请输入关键字"
+            android:paddingLeft="@dimen/dm010"
+            android:paddingTop="@dimen/dm015"
+            android:paddingBottom="@dimen/dm015"
+            android:paddingRight="@dimen/dm020"
+            android:textColor="#999999"
+            android:textSize="@dimen/dm022" />
+
+    </LinearLayout>
+
+    <com.lidroid.mutils.views.MyScrollView
+        android:layout_width="match_parent"
+        android:background="@color/main"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="品牌推荐"
+                android:layout_marginLeft="@dimen/dm026"
+                android:layout_marginTop="@dimen/dm020"
+                android:textColor="#41210f"
+                android:textSize="@dimen/dm024" />
+
+            <com.lidroid.mutils.views.MyGridView
+                android:id="@+id/pinpai_classif_mgv"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/dm050"
+                android:layout_marginRight="@dimen/dm050"
+                android:layout_marginTop="@dimen/dm030"
+                android:verticalSpacing="@dimen/dm040"
+                android:layout_height="wrap_content">
+            </com.lidroid.mutils.views.MyGridView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="全部分类"
+                android:layout_marginLeft="@dimen/dm026"
+                android:layout_marginTop="@dimen/dm020"
+                android:layout_marginBottom="@dimen/dm030"
+                android:textColor="#41210f"
+                android:textSize="@dimen/dm024" />
+
+            <com.lidroid.mutils.views.MyGridView
+                android:id="@+id/quanbu_classif_mgv"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/dm050"
+                android:verticalSpacing="@dimen/dm040"
+                android:layout_marginRight="@dimen/dm050"
+                android:layout_height="wrap_content">
+            </com.lidroid.mutils.views.MyGridView>
+
+        </LinearLayout>
+    </com.lidroid.mutils.views.MyScrollView>
+
+</LinearLayout>

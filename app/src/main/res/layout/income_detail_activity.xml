@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dm024"
+        android:layout_marginRight="@dimen/dm024"
+        android:layout_marginTop="@dimen/dm020"
+        android:background="@drawable/bg_witorlan">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dm025"
+            android:layout_marginTop="@dimen/dm027"
+            android:text="累计收入"
+            android:textColor="#41210f"
+            android:textSize="@dimen/dm030" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dm025"
+            android:layout_marginTop="@dimen/dm130"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_income"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="102.00"
+                android:textColor="#ff0000"
+                android:textSize="@dimen/dm048" />
+
+            <TextView
+                android:id="@+id/txt_tixian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dm025"
+                android:drawablePadding="@dimen/dm010"
+                android:drawableRight="@drawable/tixian_back"
+                android:text="提现"
+                android:textColor="#999999"
+                android:textSize="@dimen/dm028" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dm270"
+            android:layout_marginLeft="@dimen/dm028"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一级合伙人分润"
+                    android:textColor="#999999"
+                    android:textSize="@dimen/dm024" />
+
+                <TextView
+                    android:id="@+id/txt_income_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="¥0.00"
+                    android:textColor="#666666"
+                    android:textSize="@dimen/dm030" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一级合伙人分润"
+                    android:textColor="#999999"
+                    android:textSize="@dimen/dm024" />
+
+                <TextView
+                    android:id="@+id/txt_income_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="¥0.00"
+                    android:textColor="#666666"
+                    android:textSize="@dimen/dm030" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一级合伙人分润"
+                    android:textColor="#999999"
+                    android:textSize="@dimen/dm024" />
+
+                <TextView
+                    android:id="@+id/txt_income_firee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="¥0.00"
+                    android:textColor="#666666"
+                    android:textSize="@dimen/dm030" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

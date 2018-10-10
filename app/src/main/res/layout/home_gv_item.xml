@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/dm305"
+    android:layout_height="wrap_content"
+    android:background="@color/main"
+    android:orientation="vertical" >
+
+
+    <ImageView
+        android:layout_width="@dimen/dm305"
+        android:layout_height="@dimen/dm294"
+        android:src="@drawable/shangpinimg"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dm014"
+        android:textColor="#666666"
+        android:textSize="@dimen/dm022"
+        android:text="妖精的口袋W几英寸期望夏装甜美收腰蕾丝短袖连衣裙"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dm032"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginTop="@dimen/dm020"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥"
+            android:textColor="#ff0000"
+            android:textSize="@dimen/dm024"/>
+        <TextView
+            android:layout_marginTop="@dimen/dm020"
+            android:layout_width="@dimen/dm000"
+            android:layout_height="wrap_content"
+            android:text="249.00"
+            android:textColor="#ff0000"
+            android:textSize="@dimen/dm024"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_marginTop="@dimen/dm022"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="佣金"
+            android:textColor="#999999"
+            android:textSize="@dimen/dm022"/>
+        <TextView
+            android:layout_marginTop="@dimen/dm022"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="60"
+            android:textColor="#f5cb1e"
+            android:textSize="@dimen/dm022"/>
+        <TextView
+            android:layout_marginTop="@dimen/dm022"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/件"
+            android:textColor="#999999"
+            android:textSize="@dimen/dm022"/>
+
+    </LinearLayout>
+
+</LinearLayout>

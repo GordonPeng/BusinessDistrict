@@ -1,0 +1,198 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0"
+    android:orientation="vertical">
+
+    <include layout="@layout/title" />
+
+    <com.lidroid.mutils.views.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dm040"
+                android:src="@mipmap/logo" />
+
+            <LinearLayout
+                android:id="@+id/vip_set_newpassword_ll"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dm088"
+                android:layout_marginTop="@dimen/dm050"
+                android:background="@color/main"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/dm000"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dm024"
+                    android:layout_weight="1"
+                    android:text="密码修改"
+                    android:textColor="#41210f"
+                    android:textSize="@dimen/dm028" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dm024"
+                    android:src="@mipmap/more" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/vip_set_updating_ll"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dm088"
+                android:layout_marginTop="@dimen/dm001"
+                android:background="@color/main"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:gravity="center_vertical"
+                    android:layout_width="@dimen/dm000"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/vip_set_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dm024"
+                        android:text="版本更新"
+                        android:textColor="#41210f"
+                        android:textSize="@dimen/dm028" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/vip_set_kupdatedian"
+                        android:layout_toRightOf="@id/vip_set_tv"/>
+
+                </RelativeLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dm024"
+                    android:src="@mipmap/more" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dm088"
+                android:layout_marginTop="@dimen/dm001"
+                android:background="@color/main"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/dm000"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dm024"
+                    android:layout_weight="1"
+                    android:text="清除缓存 （150M）"
+                    android:textColor="#41210f"
+                    android:textSize="@dimen/dm028" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dm024"
+                    android:src="@mipmap/more" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dm088"
+                android:layout_marginTop="@dimen/dm001"
+                android:background="@color/main"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/dm000"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dm024"
+                    android:layout_weight="1"
+                    android:text="关于我们"
+                    android:textColor="#41210f"
+                    android:textSize="@dimen/dm028" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dm024"
+                    android:src="@mipmap/more" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/vip_set_feedback_ll"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dm088"
+                android:layout_marginTop="@dimen/dm001"
+                android:background="@color/main"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/dm000"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dm024"
+                    android:layout_weight="1"
+                    android:text="意见反馈"
+                    android:textColor="#41210f"
+                    android:textSize="@dimen/dm028" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dm024"
+                    android:src="@mipmap/more" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dm088"
+                android:layout_marginTop="@dimen/dm001"
+                android:background="@color/main"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/dm000"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dm024"
+                    android:layout_weight="1"
+                    android:text="觉得不错去给个好评"
+                    android:textColor="#41210f"
+                    android:textSize="@dimen/dm028" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dm024"
+                    android:src="@mipmap/more" />
+            </LinearLayout>
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="退出登录"
+                android:layout_marginTop="@dimen/dm080"
+                android:background="@mipmap/vip_set_kupdate"/>
+
+        </LinearLayout>
+    </com.lidroid.mutils.views.MyScrollView>
+
+</LinearLayout>

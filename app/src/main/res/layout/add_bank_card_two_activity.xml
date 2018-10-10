@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm100"
+        android:layout_marginTop="@dimen/dm010"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dm024"
+            android:text="持卡人"
+            android:textColor="@color/txt_color"
+            android:textSize="@dimen/dm028" />
+
+        <EditText
+            android:id="@+id/et_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dm156"
+            android:hint="持卡人姓名"
+            android:maxLength="5"
+            android:textColor="@color/txt_0"
+            android:textColorHint="@color/txt_9"
+            android:textSize="@dimen/dm028" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm100"
+        android:layout_marginTop="@dimen/dm001"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dm024"
+            android:text="卡号"
+            android:textColor="@color/txt_color"
+            android:textSize="@dimen/dm028" />
+
+        <EditText
+            android:id="@+id/et_user_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dm156"
+            android:hint="银行卡号"
+            android:inputType="number"
+            android:maxLength="18"
+            android:textColor="@color/txt_0"
+            android:textColorHint="@color/txt_9"
+            android:textSize="@dimen/dm028" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dm024"
+        android:layout_marginRight="@dimen/dm024"
+        android:layout_marginTop="@dimen/dm080"
+        android:background="@mipmap/loginbj"
+        android:gravity="center"
+        android:text="下一步"
+        android:textColor="@color/txt_color"
+        android:textSize="@dimen/dm028" />
+</LinearLayout>

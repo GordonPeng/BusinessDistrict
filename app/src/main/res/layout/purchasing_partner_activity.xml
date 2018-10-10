@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dm480">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/woshou" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dm024"
+                android:layout_marginTop="@dimen/dm024"
+                android:background="@drawable/baisejiantou" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:gravity="center_vertical"
+                android:background="@drawable/juxing">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="@dimen/dm024"
+                    android:textSize="@dimen/dm028"
+                    android:text="合伙人"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="预约要提醒无需预约"
+                    android:layout_marginLeft="@dimen/dm024"
+                    android:layout_marginTop="@dimen/dm014"
+                    android:textSize="@dimen/dm024"
+                    android:textColor="#adadad"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dm100"
+            android:background="@color/white"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dm024"
+                android:text="¥ 49.00"
+                android:textColor="#ff0000"
+                android:textSize="@dimen/dm040" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dm010"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dm024"
+                android:layout_marginTop="@dimen/dm020"
+                android:text="购买须知"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/dm026" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm098"
+        android:layout_alignParentBottom="true"
+        android:background="@mipmap/loginbj"
+        android:gravity="center"
+        android:text="立即购买"
+        android:textColor="@color/txt_color"
+        android:textSize="@dimen/dm028" />
+
+</RelativeLayout>

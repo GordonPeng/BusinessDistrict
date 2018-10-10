@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm220"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dm024"
+            android:background="@drawable/xuanzhong"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dm174"
+            android:layout_marginBottom="@dimen/dm024"
+            android:layout_marginLeft="@dimen/dm024"
+            android:layout_marginTop="@dimen/dm020"
+            android:background="@drawable/haochide" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dm024"
+            android:layout_marginRight="@dimen/dm024"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:text="药剂费附加费是否大多数的"
+                android:textColor="@color/txt_color"
+                android:textSize="@dimen/dm024" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dm024"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dm010"
+                    android:layout_weight="1"
+                    android:maxLines="2"
+                    android:text="785正在分销"
+                    android:textColor="@color/txt_9"
+                    android:textSize="@dimen/dm022" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dm033"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="¥199.00"
+                    android:textColor="#ff0000"
+                    android:textSize="@dimen/dm024" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
